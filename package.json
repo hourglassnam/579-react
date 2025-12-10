@@ -1,6 +1,7 @@
 {
   "name": "template-react",
   "version": "0.1.0",
+  "homepage": "https://hourglassnam.github.io/579-react/",
   "private": true,
   "dependencies": {
     "@testing-library/cypress": "^10.0.1",
