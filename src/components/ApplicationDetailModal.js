@@ -9,7 +9,7 @@ const ApplicationDetailModal = ({ app, onClose }) => {
         <div className="jat-hero jat-detail-hero">
           {/* 왼쪽 알 이미지 */}
           <div className="jat-hero-img jat-detail-egg">
-            <img src="/egg.png" alt="application egg" />
+            <img src={process.env.PUBLIC_URL + "/egg.png"} alt="application egg" />
           </div>
 
           {/* 오른쪽 텍스트 */}
