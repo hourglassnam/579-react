@@ -4,7 +4,8 @@ const ProfileCard = ({ onAddClick }) => {
   return (
     <div className="jat-hero">
       <div className="jat-hero-img">
-        <img src="/avatar.png" alt="avatar" />
+        {/* <img src="/avatar.png" alt="avatar" /> */}
+        <img src={process.env.PUBLIC_URL + "/avatar.png"} alt="avatar" />
       </div>
 
       <div className="jat-hero-body">

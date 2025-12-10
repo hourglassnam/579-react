@@ -22,7 +22,8 @@ const ApplicationGrid = ({
               onClick={() => onEggClick(app)}   // 👈 알 클릭시 정보 전달
             >
               <img
-                src="/egg.png"
+                // src="/egg.png"
+                src={process.env.PUBLIC_URL + "/egg.png"}
                 alt="application egg"
                 className="jat-egg-img"
               />
@@ -39,7 +40,8 @@ const ApplicationGrid = ({
             onClick={onEmptySlotClick}
           >
             <img
-              src="/plus.svg"
+            //   src="/plus.svg"
+              src={process.env.PUBLIC_URL + "/plus.svg"}
               alt="add application"
               className="jat-plus-icon"
             />
